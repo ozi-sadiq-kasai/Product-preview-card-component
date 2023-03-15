@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(30, 38%, 92%);
+}
+.container{
+  display: flex;
+  width: 40em;
+}
+#desktop{
+  width: 20em;
+  border-radius: 10px 0 0 10px;
+}
+
+.info{
+  padding: 10px 20px;
+  background:hsl(0, 0%, 100%);
+  line-height: 2.1em;
+  border-radius: 0 10px 10px 0;
+}
+.info header{
+  font-family:'Montserrat', sans-serif;
+  font-size: 500;
+  letter-spacing: 3px;
+  margin: 20px 0 10px 0;
+  color: hsl(228, 12%, 48%);
+}
+h1{
+  font-family: 'Fraunces', serif; 
+  margin-bottom: 20px;
+  padding: 5px;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  
+}
+
+p{
+  font-family:'Montserrat', sans-serif;
+  line-height: 1.8rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.price{
+  display: flex;
+  margin: 20px 0;
+}
+
+.price h2{
+  font-family: 'Fraunces', serif; 
+  color: hsl(158, 36%, 37%);
+}
+
+.price span{
+  align-self: center;
+  margin-left: 20px;
+  text-decoration: line-through;
+  font-family:'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+#cart{
+  width: 15px;
+  margin-right: 7px;
+  
+}
+
+button{
+ padding: 13px 70px;
+ background:hsl(158, 36%, 37%);
+ border-radius: 6px;
+ font-weight: bold;
+ color: hsl(0, 0%, 100%);
+ border: none;
+ display: flex;
+ border-bottom: 5px;
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+  #mobile !important{
+    display: none !important ;
+  }
+}
+  
