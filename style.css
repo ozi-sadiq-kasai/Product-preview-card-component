@@ -84,6 +84,10 @@ button{
  border: none;
  display: flex;
  border-bottom: 5px;
+ cursor: pointer;
+}
+button:hover{
+  background:hsl(158, 54%, 19%);
 }
 
 @media screen and (max-width: 375px){
